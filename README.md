@@ -15,7 +15,7 @@ This repo and script has been tested on:
 ```bash
 git clone https://github.com/StreetLamp05/llvm-x86-test.git
 cd llvm-x86-test
-chmod +x run.sh
+chmod +x *.sh
 ./run.sh          # default: build + run benchmarks under QEMU
 ./run.sh --native # run natively instead of QEMU
 ./run.sh --timeout <timeout in seconds (default is 10s) # change timeout settings
