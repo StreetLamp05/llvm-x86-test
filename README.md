@@ -13,7 +13,7 @@ This repo and script has been tested on:
 ## Quick Start
 
 ```bash
-git clone <this-repo-url>
+git clone (https://github.com/StreetLamp05/llvm-x86-test.git)
 cd llvm-ts-runner
 chmod +x run.sh
 ./run.sh          # default: build + run benchmarks under QEMU
