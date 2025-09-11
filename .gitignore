@@ -1,0 +1,21 @@
+# build outputs
+out/
+build/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# docker
+*.tar
+.dockerignore
+
+.idea
