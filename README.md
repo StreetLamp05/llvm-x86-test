@@ -8,7 +8,9 @@ This repo provides a script to:
 ## Environment Setup
 This repo and script has been tested on:
 - [x] Ubuntu 24.04.3 LTS (Noble)
-- [ ] Ubuntu 24.04 LTS (Noble Numbat) (Ubuntu Server)
+- [x] Ubuntu 24.04 LTS (Noble Numbat) (Ubuntu Server)
+
+requires docker
 
 ## Quick Start
 
@@ -21,4 +23,4 @@ chmod +x *.sh
 ./run.sh --timeout <timeout in seconds (default is 10s) # change timeout settings
 
 
-
+## I reccomend running it with a timeout of 500 seconds, if you want faster results (20~ minutes), you can use a timeout of 60 and still complete 122/141 tests.
