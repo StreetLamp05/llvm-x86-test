@@ -25,7 +25,7 @@ RUN python3 -m pip install --break-system-packages "lit>=18,<22"
 
 WORKDIR /workspace
 
-# Shallow clone at the tag (faster + deterministic)
+# Shallow clone at the tag 
 RUN git clone --depth 1 --branch llvmorg-20.1.8 https://github.com/llvm/llvm-test-suite.git
 
 RUN mkdir -p /workspace/build
